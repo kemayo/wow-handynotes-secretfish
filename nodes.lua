@@ -1,5 +1,7 @@
 local myname, ns = ...
 
+ns.SetupMapOverlay = nil
+
 ns.hiddenConfig = {
     groupsHidden = true,
 }
