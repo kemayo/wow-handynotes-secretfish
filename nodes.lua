@@ -28,7 +28,7 @@ ns.RegisterPoints(947, { -- Azeroth
 ns.RegisterPoints(876, { -- Kul Tiras
     [16903000] = goggles,
 })
-if not IsAddOnLoaded("HandyNotes_BattleForAzerothTreasures") then
+if not C_AddOns.IsAddOnLoaded("HandyNotes_BattleForAzerothTreasures") then
     ns.RegisterPoints(1462, { -- Mechagon
         [35004650] = { -- Bolted Steelhead, Energized Lighting Cod, Solarsprocket Barbel
             criteria={44738, 44744, 44745},
