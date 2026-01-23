@@ -22,7 +22,7 @@ local ANYWHERE = "Anywhere in this zone"
 
 local goggles = {
     achievement=13489,
-    atlas="worldquest-icon-fishing",
+    atlas="Professions_Tracking_Fish_Special",
     loot={167698}, -- Secret Fish Goggles
 }
 ns.RegisterPoints(946, { -- World
@@ -50,7 +50,7 @@ if not C_AddOns.IsAddOnLoaded("HandyNotes_BattleForAzerothTreasures") then
         [47403600] = {criteria=44746,loot={{167663,quest=55313}}}, -- Tasty Steelfin
     }, {
         achievement=13489,
-        atlas="worldquest-icon-fishing",
+        atlas="Professions_Tracking_Fish_Special",
         minimap=true,
         inbag=167698,
     })
@@ -60,7 +60,7 @@ end
 local secret = ns.nodeMaker{
     achievement=13502,
     requires=ns.conditions.Item(167698), -- Secret Fish Goggles
-    atlas="worldquest-icon-fishing",
+    atlas="Professions_Tracking_Fish_Special",
 }
 
 ns.RegisterPoints(946, { -- World
