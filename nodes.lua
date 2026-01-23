@@ -1,9 +1,15 @@
 local myname, ns = ...
 
-ns.SetupMapOverlay = nil
+ns.overlayAtlas = "Professions_Tracking_Fish"
+
+ns.suppressoverlayforparents =  true
 
 ns.hiddenConfig = {
+    display = true,
+    unhide = true,
+    notable = true,
     groupsHidden = true,
+    -- zonesHidden = true,
 }
 
 ns.defaultsOverride = {
